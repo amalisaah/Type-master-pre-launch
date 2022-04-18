@@ -149,3 +149,11 @@ footer p {
     display: flex;
     justify-content: center;
 }
+/*ACTIVE*/
+nav button:hover {
+    background-color: #162542;
+    color: #FFF;
+}
+.container-top button:hover {
+    background-color: #FF9B62;
+} 
