@@ -88,7 +88,7 @@ main img {
     background-color: #F16718;
 }
 .container-low .left img {
-    opacity: 0.4;
+    opacity: 0.5;
 }
 .low {
     height: 480px;
@@ -148,9 +148,20 @@ footer p {
 .footnote {
     display: flex;
     justify-content: center;
+    color: #7B8BAD;
 }
 
-/* Tablet styles */
+/*ACTIVE*/
+nav button:hover {
+    background-color: #162542;
+    color: #FFF;
+}
+.container-top button:hover {
+    background-color: #FF9B62;
+}   
+
+
+/*TABLETS*/
 @media screen and (max-width:768px) {
     
     header {
@@ -183,6 +194,7 @@ footer p {
     .container-top .right {
         width: 478px;
         height: 425px;
+    
     }
     .foot {
         margin-left: 32px;
@@ -218,4 +230,3 @@ footer p {
         width: 281px; 
     }
 } 
-
