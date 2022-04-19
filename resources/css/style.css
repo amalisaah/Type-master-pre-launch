@@ -88,7 +88,7 @@ main img {
     background-color: #F16718;
 }
 .container-low .left img {
-    opacity: 0.4;
+    opacity: 0.5;
 }
 .low {
     height: 480px;
@@ -148,6 +148,7 @@ footer p {
 .footnote {
     display: flex;
     justify-content: center;
+    color: #7B8BAD;
 }
 /*ACTIVE*/
 nav button:hover {
@@ -156,4 +157,74 @@ nav button:hover {
 }
 .container-top button:hover {
     background-color: #FF9B62;
-} 
+}   
+
+
+/*TABLETS*/
+@media screen and (max-width:768px) {
+    
+    header {
+        margin-top: 40px;
+        margin-bottom: 62px;
+        width: 689px;
+    }
+    main, footer {
+        margin-left: 39px;
+        margin-right: 0px; 
+        width: 100%;
+
+    } 
+    .container-top {
+        overflow: hidden;
+        gap: 69px;
+
+    } 
+    .container-top .left {
+        width: 339px;
+        height: 425px;
+    }
+    .container-top .left p {
+        font-size: 16px;
+    }
+    .container-top .left h1 {
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .container-top .right {
+        width: 478px;
+        height: 425px;
+    
+    }
+    .foot {
+        margin-left: 32px;
+    }
+    
+     .container-low {
+        display: grid;
+        grid-template-columns: 214px 445px;
+        grid-gap: 30px;
+    }
+    .low {
+        height: 320px;
+    }
+    .container-low .right {
+        width: 689px;
+        margin: auto;
+        margin-top: 72px;
+        display: grid;
+        grid-template-columns: 255px 398px;
+        max-height: 108px;
+        
+    }
+    footer {
+        height: 650px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        column-gap: 58px;
+        margin-top: 142px;
+        
+    }
+    .footer-container {
+        width: 281px; 
+    }
