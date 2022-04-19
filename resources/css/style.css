@@ -150,7 +150,6 @@ footer p {
     justify-content: center;
     color: #7B8BAD;
 }
-
 /*ACTIVE*/
 nav button:hover {
     background-color: #162542;
@@ -229,4 +228,3 @@ nav button:hover {
     .footer-container {
         width: 281px; 
     }
-} 
