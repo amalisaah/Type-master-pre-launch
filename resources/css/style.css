@@ -41,7 +41,6 @@ nav button {
 .container-top {
     display: grid;
     grid-template-columns: 40.09% 48.65%;
-    /* justify-content: space-between; */
     gap: 11.26%;
 }
 .container-top .left {
@@ -228,3 +227,78 @@ nav button:hover {
     .footer-container {
         width: 281px; 
     }
+/*PHONE*/
+@media screen and (max-width:375px) {
+    header {
+        width: 327px;
+        height: 48px;
+        margin: 24px auto 0px;
+    }
+    main, footer {
+        margin-left: 0px;
+        margin-right: 0px; 
+        width: 100%;
+    } 
+    button {
+        width: 151px;
+        height: 48px;
+    }
+
+    .container-top {
+        width: 327px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .container-top .left {
+        width: 100%;
+        height: 286px;
+    }
+    .container-top .right {
+        width: 372px;
+        height: 331px;
+    }
+    img {
+        width: 100%;
+    }
+    .container-low {
+        display: grid;
+        grid-gap: 0px;
+        grid-template-columns: 129px 220px;
+        width: 327px;
+        height: 500px;
+    }
+    .container-low .left {
+        position: relative;
+        left: -22px;
+        width: 129px;
+        height: 193px;
+    }
+    .container-low .middle {
+        width: 220px;
+        height: 193px;
+        margin-bottom: 0;
+    }
+    .container-low .right {
+        display: flex;
+        flex-direction: column;
+        width: 327px;
+        margin: auto;
+        margin-top: 0px;
+    }
+    .container-low .right h2 {
+        margin-bottom: 0;
+    }
+    footer {
+        justify-content: center;
+        width: 327px;
+        margin: auto;
+        height: 1411px;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
